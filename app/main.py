@@ -7,4 +7,3 @@ app = FastAPI()
 @app.post("/predict")
 def predict(data: dict):
     return {"result": stable_hash(data["value"])}
-
