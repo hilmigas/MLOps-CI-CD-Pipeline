@@ -30,4 +30,4 @@ jobs:
       run: |
         docker run -d -p 8000:8000 test-service
         sleep 5
-        python smoke_test.py
+        python run_smoke.py
